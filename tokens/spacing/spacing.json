@@ -1,0 +1,15 @@
+{
+  "spacing": {
+    "2XS": {"value": 4},
+    "XS": {"value": 8},
+    "SM": {"value": 12},
+    "MD": {"value": 16},
+    "LG": {"value": 24},
+    "XL": {"value": 32},
+    "2XL": {"value": 40},
+    "3XL": {"value": 48},
+    "4XL": {"value": 56},
+    "5XL": {"value": 64},
+    "6XL": {"value": 80}
+  }
+}

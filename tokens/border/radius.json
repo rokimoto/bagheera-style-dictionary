@@ -1,0 +1,13 @@
+{
+  "border": {
+    "radius": {
+      "XS": {"value": 2},
+      "SM": {"value": 4},
+      "MD": {"value": 8},
+      "LG": {"value": 12},
+      "XL": {"value": 16},
+      "2XL": {"value": 24},
+      "3XL": {"value": 32}
+    }
+  }
+}

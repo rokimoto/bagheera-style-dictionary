@@ -1,0 +1,9 @@
+{
+  "font": {
+    "typeface": {
+      "owners": {"value": "owners, Helvetica, Arial"},
+      "ownersText": {"value": "owners-text, Helvetica, Arial"},
+      "ownersNarrow": {"value": "owners-narrow, Helvetica, Arial"}
+    }
+  }
+}

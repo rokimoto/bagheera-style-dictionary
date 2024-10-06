@@ -1,0 +1,31 @@
+import {
+  ContentColors,
+  BackgroundColors,
+  Hex,
+} from '@/types';
+
+interface Tag {
+  backgroundColor: BackgroundColors;
+  color: ContentColors;
+  iconColor: ContentColors | Hex;
+}
+
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#each category as |type|}}
+{{#if @first}}
+{{#each type as |item|}}
+{{#if @first}}
+export interface {{item.attributes.themeDefKey}} {
+{{/if}}
+{{/each}}
+{{/if}}
+{{#each type as |item|}}
+  {{#if @first}}
+  {{{alphanumericSpaceString item.attributes.item}}}: Tag;
+  {{/if}}
+{{/each}}
+{{/each}}
+}
+{{/each}}
+{{/each}}

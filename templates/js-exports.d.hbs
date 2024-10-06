@@ -1,0 +1,70 @@
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#if category.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceD category=property themeDefKey=category.attributes.themeDefKey}}
+
+{{/if}}
+{{else}}
+{{#each category as |type|}}
+{{#if type.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceD category=category themeDefKey=type.attributes.themeDefKey}}
+
+{{/if}}
+{{else}}
+{{#each type as |item|}}
+{{#if item.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceD category=type themeDefKey=item.attributes.themeDefKey}}
+{{/if}}
+{{else}}
+{{#each item as |subitem|}}
+{{#if @first}}
+{{> themeInterfaceD category=item themeDefKey=subitem.attributes.themeDefKey}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}
+interface {{{options.interfaceName}}} {
+  {{#each properties as |property|}}
+{{#each property as |category|}}
+{{#if category.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceObjD category=property themeKey=category.attributes.themeKey themeDefKey=category.attributes.themeDefKey}}
+
+{{/if}}
+{{else}}
+{{#each category as |type|}}
+{{#if type.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceObjD category=category themeKey=type.attributes.themeKey themeDefKey=type.attributes.themeDefKey}}
+
+{{/if}}
+{{else}}
+{{#each type as |item|}}
+{{#if item.value includeZero=true}}
+{{#if @first}}
+{{> themeInterfaceObjD category=type themeKey=item.attributes.themeKey themeDefKey=item.attributes.themeDefKey}}
+{{/if}}
+{{else}}
+{{#each item as |subitem|}}
+{{#if @first}}
+{{> themeInterfaceObjD category=item themeKey=subitem.attributes.themeKey themeDefKey=subitem.attributes.themeDefKey}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}
+}
+
+export default {{{options.interfaceName}}};

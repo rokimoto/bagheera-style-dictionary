@@ -1,0 +1,10 @@
+{
+  "font": {
+    "letterSpacing": {
+      "XS": {"value": -4},
+      "SM": {"value": -2},
+      "MD": {"value": 0},
+      "LG": {"value": 8}
+    }
+  }
+}

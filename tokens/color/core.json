@@ -1,0 +1,235 @@
+{
+  "color": {
+    "core": {
+      "neon": {
+        "500": {
+          "value": "#E0FE2A",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"keylimeGreen\" color"
+        },
+        "600": {
+          "value": "#CAEC01",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"keylimeGreen\" color"
+        },
+        "700": {
+          "value": "#B1CE01",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"keylimeGreen\" color"
+        }
+      },
+      "white": {"value": "#FFFFFF"},
+      "keylimeGreen": {"value": "#E4F882"},
+      "neonYellow": {"value": "#F4FE03"},
+      "lightOrange": {"value": "#FFB200"},
+      "brown": {
+        "3": {"value": "#D9C9BD"}
+      },
+      "grey": {
+        "25": {"value": "#F7F7F7"},
+        "50": {"value": "#F3F3F3"},
+        "100": {"value": "#E8E7E7"},
+        "200": {"value": "#DCDCDB"},
+        "300": {"value": "#D0D1CF"},
+        "400": {"value": "#B6B8B6"},
+        "500": {"value": "#9EA09E"},
+        "600": {"value": "#858786"},
+        "700": {"value": "#6D6F6F"},
+        "800": {"value": "#555657"},
+        "900": {"value": "#3D3D3E"}
+      },
+      "wgrey": {
+        "25": {"value": "#F8F7F5"},
+        "50": {"value": "#F5F3EF"},
+        "100": {"value": "#EFECE6"},
+        "200": {"value": "#E5E2DC"},
+        "300": {"value": "#DBD8D2"},
+        "400": {"value": "#C8C5BE"},
+        "500": {"value": "#A19E97"},
+        "600": {"value": "#7A7772"},
+        "700": {"value": "#67645F"},
+        "800": {"value": "#54514D"},
+        "900": {"value": "#403E3B"}
+      },
+      "black": {"value": "#252526"},
+      "veryBlack": {"value": "#131313"},
+      "trueBlack": {"value": "#000000"},
+      "pink": {
+        "100": {"value": "#FEE0FF"},
+        "200": {"value": "#F6C5F7"},
+        "300": {"value": "#EEA4F0"},
+        "400": {"value": "#DE70E0"},
+        "500": {"value": "#BC3EBF"},
+        "600": {"value": "#A02DA2"},
+        "700": {"value": "#831F85"},
+        "800": {"value": "#4B0F4C"}
+      },
+      "red": {
+        "100": {"value": "#FFDBDB"},
+        "200": {"value": "#FDB9BB"},
+        "300": {"value": "#FB989C"},
+        "400": {"value": "#F75862"},
+        "500": {"value": "#DF1027"},
+        "600": {"value": "#B7001D"},
+        "700": {"value": "#84OO1B"},
+        "800": {"value": "#540015"}
+      },
+      "scarlet": {
+        "100": {
+          "value": "#F7DBD1",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange100\" color"
+        },
+        "200": {
+          "value": "#EFB8A3",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange200\" color"
+        },
+        "300": {
+          "value": "#E89475",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange300\" color"
+        },
+        "400": {
+          "value": "#E07047",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange400\" color"
+        },
+        "500": {
+          "value": "#CE5123",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange500\" color"
+        },
+        "600": {
+          "value": "#7C3015",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange600\" color"
+        },
+        "700": {
+          "value": "#7C3015",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange700\" color"
+        },
+        "800": {
+          "value": "#53200E",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"orange800\" color"
+        }
+      },
+      "orange": {
+        "100": {"value": "#FFEBC4"},
+        "200": {"value": "#FEDA90"},
+        "300": {"value": "#F9BE76"},
+        "400": {"value": "#EE8B36"},
+        "500": {"value": "#E35928"},
+        "600": {"value": "#CF3F0B"},
+        "700": {"value": "#A72F04"},
+        "800": {"value": "#8A2500"}
+      },
+      "cactus": {
+        "100": {
+          "value": "#F1F1D5",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green100\" color"
+        },
+        "200": {
+          "value": "#E2E4AA",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green200\" color"
+        },
+        "300": {
+          "value": "#D4D680",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green300\" color"
+        },
+        "400": {
+          "value": "#C5C956",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green400\" color"
+        },
+        "500": {
+          "value": "#ABAF38",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green500\" color"
+        },
+        "600": {
+          "value": "#898C2D",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green600\" color"
+        },
+        "700": {
+          "value": "#676922",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green700\" color"
+        },
+        "800": {
+          "value": "#444616",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"green800\" color"
+        }
+      },
+      "green": {
+        "100": {"value": "#DCFAE6"},
+        "200": {"value": "#C7F7D8"},
+        "300": {"value": "#A1E8BE"},
+        "400": {"value": "#6DCB99"},
+        "500": {"value": "#32A171"},
+        "600": {"value": "#04724D"},
+        "700": {"value": "#015237"},
+        "800": {"value": "#003322"}
+      },
+      "indigo": {
+        "100": {
+          "value": "#E9EAFF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue100\" color"
+        },
+        "200": {
+          "value": "#DDDEFF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue200\" color"
+        },
+        "300": {
+          "value": "#C6C8FF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue300\" color"
+        },
+        "400": {
+          "value": "#B6BAFF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue400\" color"
+        },
+        "500": {
+          "value": "#A7ABFF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue500\" color"
+        },
+        "600": {
+          "value": "#787EFF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue600\" color"
+        },
+        "700": {
+          "value": "#4951FF",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue700\" color"
+        },
+        "800": {
+          "value": "#00068D",
+          "deprecated": true,
+          "deprecated_comment": "Replace with the \"blue800\" color"
+        }
+      },
+      "blue": {
+        "100": {"value": "#E4EBFF"},
+        "200": {"value": "#CED9FD"},
+        "300": {"value": "#B7C7FB"},
+        "400": {"value": "#7D94E9"},
+        "500": {"value": "#4966D7"},
+        "600": {"value": "#1D38B6"},
+        "700": {"value": "#16217D"},
+        "800": {"value": "#00084D"}
+      }
+    }
+  }
+}

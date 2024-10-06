@@ -1,0 +1,5 @@
+export const {{themeKey}} = {
+{{#each category as |type|}}
+  {{{alphanumericSpaceString type.name}}}: '{{{type.value}}}',
+{{/each}}
+};

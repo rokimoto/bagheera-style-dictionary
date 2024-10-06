@@ -1,0 +1,30 @@
+{
+  "color": {
+    "border": {
+      "default": {
+        "value": "{color.core.wgrey.400.value}"
+      },
+      "subdued": {
+        "value": "{color.core.wgrey.200.value}"
+      },
+      "primary": {
+        "value": "{color.core.black.value}"
+      },
+      "inverse": {
+        "value": "{color.core.grey.700.value}"
+      },
+      "inverseSubdued": {
+        "value": "{color.core.grey.900.value}"
+      },
+      "inversePrimary": {
+        "value": "{color.core.white.value}"
+      },
+      "negative": {
+        "value": "{color.core.red.500.value}"
+      },
+      "white": {
+        "value": "{color.core.white.value}"
+      }
+    }
+  }
+}

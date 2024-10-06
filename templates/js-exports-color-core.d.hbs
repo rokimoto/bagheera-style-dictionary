@@ -1,0 +1,44 @@
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#each category as |type|}}
+{{#if type.value includeZero=true}}
+type {{capitalizeFirst type.attributes.item}} = string;
+
+{{else}}
+{{#each type as |item|}}
+{{#if @first}}
+interface {{capitalizeFirst item.attributes.item}} {
+{{/if}}
+  {{{alphanumericSpaceString item.name}}}: string;
+{{#if @last}}
+}
+
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}
+{{/each}}
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#each category as |type|}}
+{{#if @first}}
+{{#each type as |item|}}
+{{#if @first}}
+export interface {{item.attributes.themeDefKey}} {
+{{/if}}
+{{/each}}
+{{/if}}
+{{#if type.value includeZero=true}}
+  {{{type.attributes.item}}}: {{capitalizeFirst type.attributes.item}};
+{{else}}
+{{#each type as |item|}}
+{{#if @first}}
+  {{{item.attributes.item}}}: {{capitalizeFirst item.attributes.item}};
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+}
+{{/each}}
+{{/each}}

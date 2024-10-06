@@ -1,0 +1,42 @@
+{
+  "color": {
+    "action": {
+      "brand": {
+        "value": "{color.core.blue.500.value}"
+      },
+      "brandAlt": {
+        "value": "{color.core.keylimeGreen.value}"
+      },
+      "hover": {
+        "value": {
+          "color": "{color.core.wgrey.400.value}",
+          "opacity": 0.2
+        }
+      },
+      "pressed": {
+        "value": {
+          "color": "{color.core.wgrey.400.value}",
+          "opacity": 0.4
+        }
+      },
+      "inverseHover": {
+        "value": {
+          "color": "{color.core.white.value}",
+          "opacity": 0.16
+        }
+      },
+      "inversePressed": {
+        "value": {
+          "color": "{color.core.white.value}",
+          "opacity": 0.24
+        }
+      },
+      "selected": {
+        "value": {
+          "color": "{color.action.brand.value}",
+          "opacity": 0.25
+        }
+      }
+    }
+  }
+}

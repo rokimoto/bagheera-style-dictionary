@@ -1,0 +1,70 @@
+export const get{{item.name}} = css`
+{{#if item.value.typeface}}
+  font-family: {{item.value.typeface}};
+{{/if}}
+{{#if item.value.color}}
+  color: {{{styledProps item.value.color}}};
+{{/if}}
+{{#if item.value.weight}}
+  font-weight: {{item.value.weight}};
+{{/if}}
+{{#if item.value.letterSpacing}}
+  letter-spacing: {{item.value.letterSpacing}};
+{{/if}}
+{{#if item.value.textTransform}}
+  text-transform: {{item.value.textTransform}};
+{{/if}}
+{{#if item.value.cursor}}
+  cursor: {{item.value.cursor}};
+{{/if}}
+{{#if item.value.size}}
+  font-size: {{item.value.size}};
+{{/if}}
+{{#if item.value.lineHeight}}
+  line-height: {{item.value.lineHeight}};
+{{/if}}
+{{#if item.value.activeHover}}
+
+  &:hover,
+  &:active {
+  {{#if item.value.activeHover.textDecoration}}
+    text-decoration: {{item.value.activeHover.textDecoration}};
+  {{/if}}
+  }
+{{/if}}
+`;
+{{#if item.value.desktop}}
+
+export const get{{item.name}}Desktop = css`
+{{#if item.value.typeface}}
+  font-family: {{item.value.typeface}};
+{{/if}}
+{{#if item.value.color}}
+  color: {{{styledProps item.value.color}}};
+{{/if}}
+{{#if item.value.weight}}
+  font-weight: {{item.value.weight}};
+{{/if}}
+{{#if item.value.letterSpacing}}
+  letter-spacing: {{item.value.letterSpacing}};
+{{/if}}
+{{#if item.value.textTransform}}
+  text-transform: {{item.value.textTransform}};
+{{/if}}
+{{#if item.value.desktop.size}}
+  font-size: {{item.value.desktop.size}};
+{{/if}}
+{{#if item.value.desktop.lineHeight}}
+  line-height: {{item.value.desktop.lineHeight}};
+{{/if}}
+{{#if item.value.activeHover}}
+
+  &:hover,
+  &:active {
+  {{#if item.value.activeHover.textDecoration}}
+    text-decoration: {{item.value.activeHover.textDecoration}};
+  {{/if}}
+  }
+{{/if}}
+`;
+{{/if}}

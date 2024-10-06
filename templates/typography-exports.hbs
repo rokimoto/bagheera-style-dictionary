@@ -1,0 +1,44 @@
+import { css } from 'styled-components';
+import { media } from '@/styles/breakpoints';
+
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#if category.value}}
+{{#if category.value.color}}
+{{> getTypographyTheme item=category}}
+{{else}}
+{{> getTypography item=category}}
+{{/if}}
+
+{{else}}
+{{#each category as |item|}}
+{{#if item.value}}
+{{#if item.value.color}}
+{{> getTypographyTheme item=item}}
+{{else}}
+{{> getTypography item=item}}
+{{/if}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}
+const Ag = {
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#if category.value}}
+{{> agTypography item=category}}
+
+{{else}}
+{{#each category as |item|}}
+{{#if item.value}}
+{{> agTypography item=item}}
+
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}
+};
+
+export default Ag;

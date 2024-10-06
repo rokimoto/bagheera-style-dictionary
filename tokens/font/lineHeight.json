@@ -1,0 +1,72 @@
+{
+  "font": {
+    "lineHeight": {
+      "25": {
+        "value": {
+          "unit": "px",
+          "length": 16
+        }
+      },
+      "50": {
+        "value": {
+          "unit": "px",
+          "length": 18
+        }
+      },
+      "100": {
+        "value": {
+          "unit": "px",
+          "length": 20
+        }
+      },
+      "200": {
+        "value": {
+          "unit": "px",
+          "length": 24
+        }
+      },
+      "300": {
+        "value": {
+          "unit": "px",
+          "length": 28
+        }
+      },
+      "400": {
+        "value": {
+          "unit": "px",
+          "length": 32
+        }
+      },
+      "500": {
+        "value": {
+          "unit": "px",
+          "length": 36
+        }
+      },
+      "600": {
+        "value": {
+          "unit": "px",
+          "length": 40
+        }
+      },
+      "700": {
+        "value": {
+          "unit": "px",
+          "length": 44
+        }
+      },
+      "800": {
+        "value": {
+          "unit": "px",
+          "length": 52
+        }
+      },
+      "yolo": {
+        "value": {
+          "unit": "unitless",
+          "length": 1
+        }
+      }
+    }
+  }
+}

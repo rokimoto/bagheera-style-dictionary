@@ -1,0 +1,9 @@
+  {{item.name}}: css`
+    {{getTypographyName item.name}}
+  {{#if item.value.desktop}}
+
+    ${media.LG} {
+      {{getTypographyNameDesktop item.name}}
+    }
+  {{/if}}
+  `,

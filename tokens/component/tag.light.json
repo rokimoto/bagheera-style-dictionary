@@ -1,0 +1,85 @@
+{
+  "component": {
+    "tag": {
+      "neutral": {
+        "backgroundColor": {"value": "{color.background.tertiary.value}"},
+        "color": {"value": "{color.content.default.value}"},
+        "iconColor": {"value": "{color.content.default.value}"}
+      },
+      "red": {
+        "backgroundColor": {"value": "{color.core.red.100.value}"},
+        "color": {"value": "{color.core.red.800.value}"},
+        "iconColor": {"value": "{color.core.red.800.value}"}
+      },
+      "green": {
+        "backgroundColor": {"value": "{color.core.green.100.value}"},
+        "color": {"value": "{color.core.green.800.value}"},
+        "iconColor": {"value": "{color.core.green.800.value}"}
+      },
+      "orange": {
+        "backgroundColor": {"value": "{color.core.orange.100.value}"},
+        "color": {"value": "{color.core.orange.800.value}"},
+        "iconColor": {"value": "{color.core.orange.800.value}"}
+      },
+      "pink": {
+        "backgroundColor": {"value": "{color.core.pink.100.value}"},
+        "color": {"value": "{color.core.pink.800.value}"},
+        "iconColor": {"value": "{color.core.pink.800.value}"}
+      },
+      "blue": {
+        "backgroundColor": {"value": "{color.core.blue.100.value}"},
+        "color": {"value": "{color.core.blue.800.value}"},
+        "iconColor": {"value": "{color.core.blue.800.value}"}
+      },
+      "red bold": {
+        "backgroundColor": {"value": "{color.background.negative.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "green bold": {
+        "backgroundColor": {"value": "{color.core.green.600.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "orange bold": {
+        "backgroundColor": {"value": "{color.core.orange.600.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "pink bold": {
+        "backgroundColor": {"value": "{color.core.pink.500.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "blue bold": {
+        "backgroundColor": {"value": "{color.core.blue.500.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "black": {
+        "backgroundColor": {
+          "value": "{color.background.blackTransparent.value}"
+        },
+        "color": {"value": "{color.content.white.value}"},
+        "iconColor": {"value": "{color.content.white.value}"}
+      },
+      "removable": {
+        "backgroundColor": {"value": "{color.background.tertiary.value}"},
+        "color": {"value": "{color.content.default.value}"},
+        "iconColor": {"value": "{color.core.grey.800.value}"}
+      },
+      "credits": {
+        "backgroundColor": {
+          "value": "{color.action.brand.value}"
+        },
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      },
+      "specialNew": {
+        "backgroundColor": {"value": "{color.action.brand.value}"},
+        "color": {"value": "{color.content.inverse.value}"},
+        "iconColor": {"value": "{color.content.inverse.value}"}
+      }
+    }
+  }
+}

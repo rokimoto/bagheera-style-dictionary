@@ -1,0 +1,41 @@
+{{#if options.import}}
+{{{options.import}}}
+
+{{/if}}
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#if category.value includeZero=true}}
+{{#if @first}}
+{{> themeInterface category=property themeKey=category.attributes.themeKey}}
+
+{{/if}}
+{{else}}
+{{#each category as |type|}}
+{{#if type.value includeZero=true}}
+{{#if @first}}
+{{> themeInterface category=category themeKey=type.attributes.themeKey}}
+
+{{/if}}
+{{else}}
+{{#each type as |item|}}
+{{#if item.value includeZero=true}}
+{{#if @first}}
+{{> themeInterface category=type themeKey=item.attributes.themeKey}}
+
+{{/if}}
+{{else}}
+{{#each item as |subitem|}}
+{{#if subitem.value includeZero=true}}
+{{#if @first}}
+{{> themeInterface category=item themeKey=subitem.attributes.themeKey}}
+
+{{/if}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/if}}
+{{/each}}
+{{/each}}{{"\n"~}}

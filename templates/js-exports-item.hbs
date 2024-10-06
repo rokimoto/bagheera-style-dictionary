@@ -1,0 +1,29 @@
+{{#if options.import}}
+{{{options.import}}}
+
+{{/if}}
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#each category as |type|}}
+{{#if @first}}
+{{#each type as |item|}}
+{{#if @first}}
+export const {{item.attributes.themeKey}} = {
+{{/if}}
+{{/each}}
+{{/if}}
+{{#if type.value}}
+  {{{alphanumericSpaceString type.name}}}: '{{{type.value}}}',
+{{else}}
+{{#each type as |item|}}
+{{#if @first}}
+  {{{alphanumericSpaceString item.attributes.item}}}: {
+{{/if}}
+    {{{alphanumericSpaceString item.name}}}: '{{{item.value}}}',
+{{/each}}
+  },
+{{/if}}
+{{/each}}
+{{/each}}
+{{/each}}
+};
