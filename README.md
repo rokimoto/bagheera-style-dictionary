@@ -2,7 +2,7 @@
 
 ---
 
-> Style dictionary for Bagheera to be used across all Bright platforms
+> Style dictionary for Bagheera ui
 
 #### **Setup**
 
